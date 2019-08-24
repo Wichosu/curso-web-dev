@@ -10,6 +10,10 @@ header{
     background:black;
 }
 
+.wrapper{
+    width: auto;
+}
+
 .nav-container{
     color: white;
     display: flex;
@@ -34,4 +38,26 @@ header{
 .nav-container a{
     text-decoration: none;
     color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img-container{
+    margin: 0;
+}
+
+.hero-img-container img{
+    width: 700px;
+}
+
+.hero-card-container{
+    padding-left: 70px;
+}
+
+.hero-card-container h1{
+    font-size: 60px;
+    margin-bottom: 0px;
 }
