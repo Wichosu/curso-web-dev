@@ -31,3 +31,17 @@ body{
     text-decoration: none;
     font-size: 25px;
 }
+
+.hero{
+    display: flex;
+}
+
+.hero-img-container{
+    background: black;
+    background-image: url(../img/hero-img.jpg);
+    background-size: cover;
+}
+
+.hero-text-container{
+    box-sizing: border-box;
+}
