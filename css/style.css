@@ -45,3 +45,13 @@ body{
 .hero-text-container{
     box-sizing: border-box;
 }
+
+.about-me{
+    background-image: url(../img/about-img-mackeyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me h2{
+    text-align: center;
+}
