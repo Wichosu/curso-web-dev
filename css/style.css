@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.header h2{
+    color: white;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header li{
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
