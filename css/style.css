@@ -88,3 +88,18 @@ body{
 .quote p{
     font-size: 15px;
 }
+
+.contact-img{
+    background-image: url(../img/my-image-footer.jpg);
+}
+
+.contact-column{
+    display: flex;
+    align-content: space-between;
+}
+
+.fake-button{
+    border: 1px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+}
