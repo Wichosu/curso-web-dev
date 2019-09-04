@@ -103,3 +103,15 @@ body{
     border-radius: 50px;
     text-decoration: none;
 }
+
+.footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
