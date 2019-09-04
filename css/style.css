@@ -55,3 +55,19 @@ body{
 .about-me h2{
     text-align: center;
 }
+
+.passion-text-container{
+    text-align: center;
+    width: 700px;
+}
+
+.passion figure{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.passion figure img{
+    height: 300px;
+    width: 25%;
+}
