@@ -71,3 +71,20 @@ body{
     height: 300px;
     width: 25%;
 }
+
+.quote{
+    background-image: url(../img/lincoln-memorial-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+}
+
+.quote h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+.quote p{
+    font-size: 15px;
+}
