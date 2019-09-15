@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.header h2{
+    color: white;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header li{
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.hero{
+    display: flex;
+}
+
+.hero-img-container{
+    background: black;
+    background-image: url(../img/hero-img.jpg);
+    background-size: cover;
+}
+
+.hero-text-container{
+    box-sizing: border-box;
+}
+
+.about-me{
+    background-image: url(../img/about-img-mackeyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me h2{
+    text-align: center;
+}
+
+.passion-text-container{
+    text-align: center;
+    width: 700px;
+}
+
+.passion figure{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.passion figure img{
+    height: 300px;
+    width: 25%;
+}
+
+.quote{
+    background-image: url(../img/lincoln-memorial-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+}
+
+.quote h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+.quote p{
+    font-size: 15px;
+}
+
+.contact-img{
+    background-image: url(../img/my-image-footer.jpg);
+}
+
+.contact-column{
+    display: flex;
+    align-content: space-between;
+}
+
+.fake-button{
+    border: 1px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
