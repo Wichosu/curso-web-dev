@@ -1,87 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Restart 2nd Homework</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Title nos permite cambiar el nombre que aparece en la pestaña-->
+  <title>Hola mundo</title>
+  <!--Link crea un enlace con otro archivo-->
+  <!--rel es el tipo de relacion-->
+  <!--href la referencia de donde esta nuestro archivo-->
+  <link rel="shortcut icon" href="examen3_inserts.png" type="image/x-icon">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <h2>Luis Eduardo</h2>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </header>
-        <section class="hero">
-            <div class="hero-img-container">
-            </div>
-            <div class="hero-text-container">
-                <h1>Luis Eduardo te da la bienvenida</h1>
-                <p><strong>Te invito a explorar</strong></p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugiat exercitationem reiciendis
-                    non repellendus! Veniam perspiciatis molestiae placeat blanditiis repellendus numquam, iste
-                    tenetur quisquam, obcaecati delectus libero ad officiis eligendi?
-                </p>
-                <a href="#">Conoceme</a>
-                <a href="#">Fotos</a>
-            </div>
-        </section>
-        <section class="about-me">
-            <h2>Conóceme</h2>
-        </section>
-        <section class="passion">
-            <div class="passion-text-container">
-                <h2>Mi pasión</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium ullam dolorum
-                    error deleniti rem saepe cum exercitationem dolorem? Facere vitae ipsam commodi, omnis quia
-                    quos voluptates excepturi repellat quod!
-                </p>
-            </div>
-            <figure>
-                <img src="./img/before-footer-lofi-img.jpg" alt="">
-                <img src="./img/bf-arc-img.jpg" alt="">
-                <img src="./img/bf-sidney-img.jpg" alt="">
-                <img src="./img/bf-tower-img.jpg" alt="">
-            </figure>
-        </section>
-        <section class="quote">
-            <div class="quote-text">
-                <h3>"La mejor forma de predecir el futuro es crearlo"</h3>
-                <p><b>-Abraham Lincoln</b></p>
-            </div>
-        </section>
-        <section class="contact">
-            <h2>Ponte en Contacto</h2>
-            <div class="contact-column">
-                <form action="">
-                    <label for="text">Nombre</label>
-                    <input type="text" name="" id="">
-                    <label for="email">Email</label>
-                    <input type="email" name="" id="">
-                    <label for="text">Asunto</label>
-                    <input type="text" name="" id="">
-                    <label for="text">Mensaje</label>
-                    <input type="text" name="" id="">
-                    <input type="submit" value="Enviar" class="fake-botton">
-                </form>
-            </div>
-            <div class="contact-img">
-                
-            </div>
-        </section>
-        <footer class="footer">
-            <p><a href="mailto:luiscalderonmiranda@gmail.com">luiscalderonmiranda@gmail.com</a></p>
-            <p><a href="tel:+522281052880">2281052880</a></p>
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <p>Creado por <a href="#">Luis Eduardo</a>, Coding Workshop 2019</p>
-        </footer>
-    </div>
+  <!--Esto es un comentario-->
+  <!--Headers Encabezados-->
+  <h1>Headers</h1>
+  <h2>H2</h2>
+  <h3>H3</h3>
+  <h4>H4</h4>
+  <h5>H5</h5>
+  <h6>H6</h6>
+  <!--etiquetas de texto-->
+  <p>Esto es una etiqueta de parrafor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum minima doloribus velit dicta possimus nemo, cumque, tempora in perferendis fugiat laborum accusamus hic facere quae excepturi, saepe commodi voluptatibus. Ex!</p>
+  <span>Esto es un span</span>
+  <p>
+    <i>Estas son italicas</i>
+    <b>Estas son negritas</b>
+    <small>Esto es small</small>
+    <strong>Esto es strong</strong>
+  </p>
+  <!--imagen-->
+  <!--src la ruta de nuestra imagen-->
+  <!--alt en caso de que no cargue la imagen se indica con texto lo que era -->
+  <img src='examen3_inserts.png' alt='' />
+  <!--links-->
+  <a href='https://github.com/' target='_blank'>Esto es un link</a>
+  <!--Formularios-->
+  <form>
+    <!--Label texto para referirnos a el input-->
+    <!--Input campo donde se inserta la informacion-->
+    <label for='numero'>Este es un texto que lleva al input</label>
+    <input id='numero' type='number' />
+    <label for='texto'>Label de input tipo text</label>
+    <input id='texto' type='text' />
+    <label for='checkbox'>Label de checkbox</label>
+    <input id='checkbox' type='checkbox' />
+    <label for='fecha'>Label de fecha</label>
+    <input id='fecha' type='date' />
+    <label for='correo'>Label de correo</label>
+    <input id='correo' type="email" />
+  </form> 
+  <!--Listas-->
+  <!--Lista desordenada, las que llevan punto-->
+  <ul>
+    <!--Item de una lista-->
+    <li>Este es un elemento de una lista</li>
+    <li>Este es otro</li>
+    <li>Y este el ultimo</li>
+  </ul>
+  <!--Lista ordenada, la que lleva numeros-->
+  <ol>
+    <li>Este es un item</li>
+    <li>Este es otro item</li>
+    <li>item de lista</li>
+  </ol>
+  <!--Utilidades-->
+  <!--Linea separadora-->
+  <hr />
+  <!--Salto de linea-->
+  <p>
+    Este es un texto
+    <br />
+    Y el br es mi para realizar el salto
+    <br />
+    No es necesario que este dentro de una etiqueta p
+  </p>
+  <!--separadar unicamente con valor en codigo no visible-->
+  <div>Esto es un div podemos escribir en el, es muy util al manejarlo con estilos</div>
+  <!--Multimedia-->
+  <!--Video-->
+  <video src='jabith.mp4' autoplay poster='examen3_inserts.png'>
+  </video>
+  <audio src=''></audio>
 </body>
 </html>
