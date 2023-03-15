@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Esto es un comentario en CSS*/
+h1{
+  color: red;
+}
+
+.clase{
+  color: blue;
+}
+
+#id{
+  color: green;
+}
+
+/*Unidades en CSS, (las mas usadas)
+  px (pixeles, unidad fija)
+  em (basado en el tamaño de la fuente, unidad dinamica)
+  rem (basado en el tamaño de la fuente raiz, unidad dinamica)
+  % (porcentaje, ocupa el tamaño de relativo al de su elemento padre, unidad dinamica)
+  vw y vh (viewports, similar al porcentaje pero relativo al tamaño de nuestra pantalla)
+  Hay muchos mas pero con estos nos basta de momento
+*/
+.tamanio{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
