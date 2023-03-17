@@ -1,10 +1,47 @@
+/*Importacion de fuentes de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+/* '*' Selector universal, selecciona todo */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*Esto es un comentario en CSS*/
+
 h1{
+  margin: 1rem;
+}
+
+nav{
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #333333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+nav p{
+  font-size: 1.25rem;
+  text-align: center;
+  color: #333333;
+}
+
+nav div{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav div a{
+  text-decoration: none;
+  color: black;
+}
+
+nav div a:hover{
+  color: rgb(62, 62, 255);
+}
+/*Esto es un comentario en CSS*/
+h2{
   color: red;
 }
 
@@ -43,13 +80,83 @@ h1{
 }
 
 .tamanioporcentaje{
-  width: 100%;
-  height: 50%;
+  width: 80%;
+  height: 40%;
   background-color: orange;
 }
 
 .tamanioviewport{
-  width: 100vw;
-  height: 50vh;
+  width: 60vw;
+  height: 10vh;
   background-color: green;
+}
+
+.texto{
+  font-family: 'Montserrat', sans-serif; /*Indicar familia de la fuente*/
+  font-size: 1.5rem; /*Tamaño de la fuente*/
+  font-weight: 100; /*Peso de la fuente, que tan delgada o gruesa se ve*/
+  font-style: italic; /*Estilo de la fuente*/
+  text-decoration: line-through; /*Decoracion de la fuente...*/
+  text-align: center; /*alineacion de la fuente, centro, izq, der, just */
+  text-transform: uppercase; /*Transformar el texto a mayusculas, minusculas, capitalize...*/
+}
+
+.bordes{
+  /*
+    El margen es un espacio creado por fuera del borde del elemento
+    representado en el inspector de color naranja
+    al estar afuera del elemento el border y fondo no se ven afectados
+  */
+  margin: 0 auto;
+  width: 400px;
+  height: 150px;
+  /*Abreviacion para aplicar borde en los 4 lados del elemento
+    border: tamaño estilo color;
+    podemos aplicar border especificos para cada lado;
+    border-top: tamaño estilo color; borde superior
+    border-right: tamaño estilo color; borde derecho
+    border-bottom: tamaño estilo color; borde inferior
+    border-left: tamaño estilo color; borde izquierdo
+  */
+  border: 1px solid black;
+  /*
+    Redondear bordes, para crear un circulo aplica 50%;
+  */
+  border-radius: 16px;
+  background-color: #EEEEEE;
+  /*
+    crear sombras para los elementos
+    ----------- ------- ------- opcional     opcional -----
+    box-shadow: offsetX offsetY blur/borroso ruido    color;
+  */
+  box-shadow: 8px 6px 16px 8px rgba(51, 51, 51, 0.6);
+}
+
+.espacios{
+  width: fit-content;
+  /*
+    Margin, espacio fuera del borde del elemento
+    margin: 0; abreviacion para aplicar el mismo margen a todos los lados
+    margin-top:; aplicar margen superior,
+    margin-right:; aplicar margen derecho,
+    margin-bottom:; aplicar margen inferior,
+    margin-left:; aplicar margen izquierdo,
+    ------- arriba/abajo izquierda/derecha
+    margin:      0              0;
+    ------Sentido en manecillas del reloj
+    ------ arriba derecha abajo izquierda
+    margin:   0      0      0      0;
+  */
+  margin: 1rem 20rem 0 40px;
+  /*
+    padding, espacio por dentro del borde del elemento
+    padding: 0; aplicar el mismo padding a todos los lados
+    mismas abreviaciones que margin.
+  */
+  padding: 40px 25px 10px 15px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+div{
 }

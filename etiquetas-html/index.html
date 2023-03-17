@@ -21,6 +21,7 @@
   <h5>H5</h5>
   <h6>H6</h6>
   <!--etiquetas de texto-->
+  <h4>Etiquetas para texto</h4>
   <p>Esto es una etiqueta de parrafor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum minima doloribus velit dicta possimus nemo, cumque, tempora in perferendis fugiat laborum accusamus hic facere quae excepturi, saepe commodi voluptatibus. Ex!</p>
   <span>Esto es un span</span>
   <p>
@@ -32,11 +33,14 @@
   <!--imagen-->
   <!--src la ruta de nuestra imagen-->
   <!--alt en caso de que no cargue la imagen se indica con texto lo que era -->
+  <h4>Imagen</h4>
   <img src='examen3_inserts.png' alt='' />
   <!--links-->
+  <h4>Links</h4>
   <a href='https://github.com/' target='_blank'>Esto es un link</a>
   <!--Formularios-->
-  <form>
+  <h4>Formularios, labels e inputs</h4>
+  <form style='display: flex; flex-direction: column; width: 30%;'>
     <!--Label texto para referirnos a el input-->
     <!--Input campo donde se inserta la informacion-->
     <label for='numero'>Este es un texto que lleva al input</label>
@@ -52,6 +56,7 @@
   </form> 
   <!--Listas-->
   <!--Lista desordenada, las que llevan punto-->
+  <h4>Listas desordenadas y ordenadas</h4>
   <ul>
     <!--Item de una lista-->
     <li>Este es un elemento de una lista</li>
@@ -66,8 +71,10 @@
   </ol>
   <!--Utilidades-->
   <!--Linea separadora-->
+  <h4>Linea</h4>
   <hr />
   <!--Salto de linea-->
+  <h4>Salto de linea</h4>
   <p>
     Este es un texto
     <br />
@@ -76,15 +83,36 @@
     No es necesario que este dentro de una etiqueta p
   </p>
   <!--separadar unicamente con valor en codigo no visible-->
+  <h4>Div</h4>
   <div>Esto es un div podemos escribir en el, es muy util al manejarlo con estilos</div>
   <!--Multimedia-->
   <!--Video-->
+  <h4>Video y Audio</h4>
   <video width='400px' controls autoplay poster='examen3_inserts.png'>
     <source src='ejemplo.ogg' type='video/ogg' />
   </video>
   <!--Audio-->
-  <audio controls autoplay> 
+  <audio controls> 
     <source src='ejemplo_audio.ogg' type='audio/ogg' />
   </audio>
+  <!--Tablas-->
+  <h4>Tablas</h4>
+  <table>
+    <tr>
+      <th>Encabezado de tablas</th>
+      <th>Otro encabezado</th>
+      <th>Otro mas</th>
+    </tr>
+    <tr>
+      <td>Elemento</td>
+      <td>Otro Elemento</td>
+      <td>Uno mas</td>
+    </tr>
+    <tr>
+      <td>Mas elementos</td>
+      <td>otro</td>
+      <td>otro mas</td>
+    </tr>
+  </table>
 </body>
 </html>
