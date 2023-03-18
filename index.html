@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estilos CSS</title>
+  <link rel="stylesheet" href="css-basico/style.css">
+</head>
+<body>
+  <nav>
+    <p>Paginas para consultar estilos</p>
+    <div>
+      <a 
+        href='https://developer.mozilla.org/es/' 
+        target='_blank'
+      >
+        MDN Web Docs (Mozilla Developer Network)
+      </a>
+      <a 
+        href='https://www.w3schools.com/html/html_basic.asp' 
+        target='_blank'
+      >
+        W3school
+      </a>
+    </div>
+  </nav>
+  <!--
+    Selectores CSS:
+    nombre de el id (especificidad 1, 0, 0) la mas alta de todad
+    nombre de la clase (especificidad 0, 1, 0) la media
+    nombre de la etiqueta (especificidad 0, 0, 1) la mas baja
+  -->
+  <h1>Selectores y especificidad CSS</h1>
+  <h2>Etiqueta</h2>
+  <h2 class='clase'>Clase</h2>
+  <h2 id='id' class='clase'>Id</h2>
+  <!--
+    Asignar tamaño a nuestro elementos
+    width (ancho)
+    height (alto)
+  -->
+  <h1>Unidades relativas y asignación de tamaño con width y height</h1>
+  <div class='tamaniopx'></div>
+  <div class='tamanioem'></div>
+  <div class='tamaniorem'></div>
+  <div style='width: 80vw; height: 12rem; background-color: #CCCCCC;'>
+    <div class='tamanioporcentaje'></div>
+  </div>
+  <div class='tamanioviewport'></div>
+  <h1>Manejo de fuentes y tipografia</h1>
+  <p class='texto'>Esto es un texto de prueba</p>
+  <h1>Bordes, Box shadow (sombras), Margenes y Padding</h1>
+  <div class='bordes'></div>
+  <p class='espacios'>Entendiendo margin y padding</p>
+  <h1>Displays</h1>
+  <div class='block'>Elemento con block</div>
+  <div class='none'>Elemento con none</div>
+  <div class='flex'>
+    <p>Elemento</p>
+    <p>con</p>
+    <p>Flex</p>
+  </div>
+  <div>Grid</div>
+  <div class='grid'>
+    <div class='grid-1'></div>
+    <div class='grid-2'></div>
+    <div class='grid-3'></div>
+    <div class='grid-4'></div>
+    <div class='grid-5'></div>
+  </div>
+  <h1>Transitions / Transiciones</h1>
+  <button class='boton'>boton</button>
+  <h1>Animations / Animaciones</h1>
+  <div class='square'></div>
+  <div class='circles'>
+    <div class='circle-r'></div>
+    <div class='bottomCircles'>
+      <div class='circle-g'></div>
+      <div class='circle-b'></div>
+    </div>
+  </div>
+</body>
+</html>
